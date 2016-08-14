@@ -4,10 +4,11 @@
 # source("c:/alexey_workspace/sauder/kaggle/data-science-titanic-learn/code/code.R")
 library(car)
 
+
 fnFindOptimalThreshold = function(g1Z,g1ZPredicted, nSteps = 1000){
 
 	rOptimalThreshold	= 0.5
-	rOptimalDist 		= 1.0
+	rOptimalDist 		= 1.00
 	
 	arThreshold	= seq(0.0,1.0,length = nSteps)
 
